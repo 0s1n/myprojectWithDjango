@@ -5,7 +5,13 @@
 *.log
 *.pot
 *.pyc
+**/__pycache__/
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
 __pycache__/
+__pycache__
+settings.cpython-312.pyc
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
