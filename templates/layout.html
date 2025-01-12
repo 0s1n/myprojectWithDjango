@@ -19,17 +19,17 @@
             <span role="img" aria-label="Home" title="Home">
                 🏠
             </span>            
-        </a> |
+        </a> | 
         <a href="/about">
             <span role="img" aria-label="About" title="About">
                 😀
             </span>
-        </a> |
+        </a> | 
         <a href="{% url 'posts:list' %}">
             <span role="img" aria-label="Posts" title="Posts">
                 📰
             </span>
-        </a> |
+        </a> | 
         <a href="{% url 'users:register' %}">
             <span
                 role="img"
@@ -38,7 +38,16 @@
             >
                 🚀
             </span>
-        </a> |
+        </a> | 
+        <a href="{% url 'users:login' %}">
+            <span
+                role="img"
+                aria-label="User Login"
+                title="User Login"
+            >
+                🔏
+            </span>
+        </a>
     </nav>
 
     <main>
